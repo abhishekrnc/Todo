@@ -51,7 +51,7 @@ public class Main {
             Messages.byeMessage();
 
         } catch (Exception e) {
-            Messages.showMessage("UNCAUGHT EXCEPTION THROWN", true);
+            Messages.showMessage("SORRY THIS ACTION IS NOT KNOWN", true);
             System.out.println("Trying to write the unsaved data of all tasks in data file");
             todoList.saveToFile(filename);
             System.out.println(e.getMessage());
