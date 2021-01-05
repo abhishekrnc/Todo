@@ -19,7 +19,7 @@ public class Main {
 
             todoList.readFromFile(filename);
 
-            Messages.showMessage("Welcome to ToDoList", false);
+            Messages.showMessage("Welcome to Todo App created by Abhishek", false);
 
             while (!menuChoice.equals("4")) {
                 Messages.mainMenu(todoList.notCompletedCount(), todoList.completedCount());
