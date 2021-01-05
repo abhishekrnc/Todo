@@ -57,15 +57,15 @@ public class Messages {
 
     public static void  byeMessage() {
         System.out.println(GREEN_TEXT);
-        System.out.println(">>> All tasks are saved to data file");
-        System.out.println(">>> Good Bye");
+        System.out.println(">>> Your all tasks are saved to data file");
+        System.out.println(">>> BYE BYE!! Have a Nice Day ");
         System.out.println(RESET_TEXT);
     }
 
 
     public static void unknownMessage() {
         System.out.println(RED_TEXT);
-        System.out.println(">>> Incorrect choice: Please type a number from given choices ");
+        System.out.println(">>> Choice not recognized: Please type a number from given choices ");
         System.out.print(RESET_TEXT);
     }
 
