@@ -10,14 +10,13 @@ public class Main {
     public static void main(String[] args) {
         Todo todoList = new Todo();
 
-        //A string to hold the choice that will be entered by the user
+
         String menuChoice = "-17";
 
         try {
             Scanner input = new Scanner(System.in);
 
-            // reading the date from task data file
-            // if this is the first time, a message will be shown that no data file is found
+
             todoList.readFromFile(filename);
 
             Messages.showMessage("Welcome to ToDoList", false);
@@ -47,8 +46,7 @@ public class Main {
                 }
             }
 
-            // saving the task details in data file
-            // if this is the first time, a new task file will be created
+
             todoList.saveToFile(filename);
             Messages.byeMessage();
 
