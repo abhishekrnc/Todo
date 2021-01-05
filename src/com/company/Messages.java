@@ -37,7 +37,7 @@ public class Messages {
 
     public static void editTaskSelection() {
         System.out.println(GREEN_TEXT);
-        System.out.print(">>> Type a task number to EDIT and press ENTER key: ");
+        System.out.print(">>> Type a task number to EDIT and then press ENTER key: ");
         System.out.print(RESET_TEXT);
     }
 
